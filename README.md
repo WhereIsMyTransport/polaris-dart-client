@@ -39,12 +39,6 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```dart
 import 'package:polaris_client/api.dart';
 
-// TODO Configure HTTP Bearer authorization: bearerAuth
-// Case 1. Use String Token
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken('YOUR_ACCESS_TOKEN');
-// Case 2. Use Function which generate token.
-// String yourTokenGeneratorFunction() { ... }
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken(yourTokenGeneratorFunction);
 
 final api_instance = GeocoderV1Api();
 final forwardGeocodingRequest = ForwardGeocodingRequest(); // ForwardGeocodingRequest | 

@@ -40,7 +40,7 @@ class GeocoderV1Api {
 
     final contentTypes = <String>['application/json'];
     final nullableContentType = contentTypes.isNotEmpty ? contentTypes[0] : null;
-    final authNames = <String>['bearerAuth'];
+    final authNames = <String>[];
 
 
     return await apiClient.invokeAPI(
@@ -99,7 +99,7 @@ class GeocoderV1Api {
 
     final contentTypes = <String>['application/json'];
     final nullableContentType = contentTypes.isNotEmpty ? contentTypes[0] : null;
-    final authNames = <String>['bearerAuth'];
+    final authNames = <String>[];
 
 
     return await apiClient.invokeAPI(

@@ -23,12 +23,6 @@ Internally leverages one or more providers to generate a list of results that be
 ### Example 
 ```dart
 import 'package:polaris_client/api.dart';
-// TODO Configure HTTP Bearer authorization: bearerAuth
-// Case 1. Use String Token
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken('YOUR_ACCESS_TOKEN');
-// Case 2. Use Function which generate token.
-// String yourTokenGeneratorFunction() { ... }
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken(yourTokenGeneratorFunction);
 
 final api_instance = GeocoderV1Api();
 final forwardGeocodingRequest = ForwardGeocodingRequest(); // ForwardGeocodingRequest | 
@@ -53,7 +47,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](../README.md#bearerAuth)
+No authorization required
 
 ### HTTP request headers
 
@@ -70,12 +64,6 @@ Performs reverse geocoding, i.e. converts a (longitude, lattitude) pair into one
 ### Example 
 ```dart
 import 'package:polaris_client/api.dart';
-// TODO Configure HTTP Bearer authorization: bearerAuth
-// Case 1. Use String Token
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken('YOUR_ACCESS_TOKEN');
-// Case 2. Use Function which generate token.
-// String yourTokenGeneratorFunction() { ... }
-//defaultApiClient.getAuthentication<HttpBearerAuth>('bearerAuth').setAccessToken(yourTokenGeneratorFunction);
 
 final api_instance = GeocoderV1Api();
 final reverseGeocodingRequest = ReverseGeocodingRequest(); // ReverseGeocodingRequest | 
@@ -100,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearerAuth](../README.md#bearerAuth)
+No authorization required
 
 ### HTTP request headers
 
